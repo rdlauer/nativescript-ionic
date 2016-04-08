@@ -1,0 +1,10 @@
+.drawer-content {
+    padding-top: 20;
+    background-color: #387ef5;
+    color: white;
+    font-size: 18;
+}
+
+.drawer-menu label {
+    margin: 10 10 10 20;
+}

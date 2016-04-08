@@ -1,0 +1,8 @@
+<action-bar title="{{ 'Io{N}ic ' + title }}" class="{{ 'action-bar-' + selectedStyle }}">
+    <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+    <action-bar.actionItems>
+        <ios>
+            <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </ios>
+    </action-bar.actionItems>
+</action-bar>        

@@ -1,0 +1,35 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Home page contents -->
+      <scroll-view>
+        <stack-layout class="padding">
+            <Label class="h1" text="I'm an H1!"></Label>
+            <Label class="h2" text="I'm an H2!"></Label>
+            <Label class="h3" text="I'm an H3!"></Label>
+            <Label class="h4" text="I'm an H4!"></Label>
+            <Label class="h5" text="I'm an H5!"></Label>
+            <Label class="h6" text="I'm an H6!"></Label>
+            <Label class="p" text="I'm a paragraph!"></Label>
+            <Label class="p" style="font-style:italic" text="I'm in italic!"></Label>
+            <Label class="p" style="font-weight:bold" text="I'm bold!"></Label>
+        </stack-layout>
+      </scroll-view>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

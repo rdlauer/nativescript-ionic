@@ -1,0 +1,34 @@
+{
+    "name": "tns-ionic",
+    "main": "app.js",
+    "version": "0.0.1",
+    "author": {
+        "name": "Rob Lauer",
+        "email": "rdlauer@gmail.com"
+    },
+    "description": "Io{N}ic CSS Template",
+    "license": "Apache-2.0",
+    "keywords": [
+        "telerik",
+        "mobile",
+        "nativescript",
+        "{N}",
+        "tns",
+        "appbuilder",
+        "template"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/NativeScript/template-hello-world.git"
+    },
+    "bugs": {
+        "url": "https://github.com/NativeScript/template-hello-world/issues"
+    },
+    "homepage": "https://github.com/NativeScript/template-hello-world",
+    "android": {
+        "v8Flags": "--expose_gc"
+    },
+    "readme": "ERROR: No README data found!",
+    "_id": "tns-ionic@0.0.1",
+    "_from": "tns-ionic@0.0.1"
+}

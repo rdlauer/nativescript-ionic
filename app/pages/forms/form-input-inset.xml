@@ -1,0 +1,36 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+      <stack-layout>
+      
+        <stack-layout class="form">
+            
+            <grid-layout class="form-item" columns="*, 90" rows="auto">
+                <text-field hint="First Name" class="input-inset" col="0" />
+                <button text="Submit" class="button button-positive" col="1" />
+            </grid-layout>
+                
+            <stack-layout class="hr" />
+                
+        </stack-layout>
+        
+    </stack-layout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

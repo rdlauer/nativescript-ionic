@@ -1,0 +1,39 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+      <stack-layout>
+        <stack-layout class="padding">
+            <label text="Io{N}ic ActionBars can be styled with one of Ionic's default colors: light, stable, positive, calm, balanced, energized, assertive, royal, and dark" textWrap="true" />
+        </stack-layout>
+        
+        <grid-layout columns="auto, auto, auto" rows="auto, auto, auto" class="padding">
+                <button class="button button-light" text="light" tap="changeActionBarStyle" col="0" row="0" rel="light" />
+                <button class="button button-stable" text="stable" tap="changeActionBarStyle" col="1" row="0" rel="stable" />
+                <button class="button button-positive" text="positive" tap="changeActionBarStyle" col="2" row="0" rel="positive" />
+                <button class="button button-calm" text="calm" tap="changeActionBarStyle" col="0" row="1" rel="calm" />
+                <button class="button button-balanced" text="balanced" tap="changeActionBarStyle" col="1" row="1" rel="balanced" />
+                <button class="button button-energized" text="energized" tap="changeActionBarStyle" col="2" row="1" rel="energized" />
+                <button class="button button-assertive" text="assertive" tap="changeActionBarStyle" col="0" row="2" rel="assertive" />
+                <button class="button button-royal" text="royal" tap="changeActionBarStyle" col="1" row="2" rel="royal" />
+                <button class="button button-dark" text="dark" tap="changeActionBarStyle" col="2" row="2" rel="dark" />
+        </grid-layout>
+    </stack-layout>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

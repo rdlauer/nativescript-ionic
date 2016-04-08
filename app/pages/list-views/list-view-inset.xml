@@ -1,0 +1,34 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer" loaded="mainContentLoaded">
+    <drawer:rad-side-drawer.mainContent>
+
+      <!-- Home page contents -->
+      
+      
+        <stack-layout class="listview-inset">      
+            <list-view items="{{ fakeListItems }}" class="listview">
+                <list-view.itemTemplate>
+                    <stack-layout class="item" col="0" class="item">
+                        <label text="{{ artist + ': ' + title }}" col="1"/>
+                    </stack-layout>
+                </list-view.itemTemplate>
+            </list-view>
+        </stack-layout>
+      
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

@@ -1,0 +1,36 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+      <scroll-view>
+        <stack-layout>
+            <StackLayout>
+                <Button class="button button-light" text="light" />
+                <Button class="button button-stable" text="stable (default)" />
+                <Button class="button button-positive" text="positive" />
+                <Button class="button button-calm" text="calm" />
+                <Button class="button button-balanced" text="balanced" />
+                <Button class="button button-energized" text="energized" />
+                <Button class="button button-assertive" text="assertive" />
+                <Button class="button button-royal" text="royal" />
+                <Button class="button button-dark" text="dark" />
+            </StackLayout>
+        </stack-layout>
+    </scroll-view>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

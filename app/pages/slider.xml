@@ -1,0 +1,126 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer">
+    <drawer:rad-side-drawer.mainContent>
+
+<scroll-view>
+    <stack-layout>
+        <stack-layout class="form">
+            
+            <stack-layout class="form-item ">
+                <label text="light" class="input-label" />
+                <grid-layout columns="24, *, 30" rows="auto">
+                    <label text="&#xf112;" col="0" class="tns-ionicon-large" />
+                    <slider value="10" maxValue="100" minValue="0" col="1" class="slider-light"/>
+                    <label text="&#xf111;" col="2" class="tns-ionicon-large right" />
+                </grid-layout>    
+            </stack-layout>
+            
+            <stack-layout class="hr" />
+            
+            <stack-layout class="form-item ">
+                <label text="stable" class="input-label" />
+                <grid-layout columns="24, *, 30" rows="auto">
+                    <label text="&#xf316;" col="0" class="tns-ionicon-large" />
+                    <slider value="20" maxValue="100" minValue="0" col="1" class="slider-stable"/>
+                    <label text="&#xf119;" col="2" class="tns-ionicon-large right" />
+                </grid-layout>    
+            </stack-layout>
+            
+            <stack-layout class="hr" />
+            
+            <stack-layout class="form-item ">
+                <label text="positive" class="input-label" />
+                <grid-layout columns="24, *, 30" rows="auto">
+                    <label text="&#xf11e;" col="0" class="tns-ionicon-large" />
+                    <slider value="30" maxValue="100" minValue="0" col="1" class="slider-positive"/>
+                    <label text="&#xf11d;" col="2" class="tns-ionicon-large right" />
+                </grid-layout>    
+            </stack-layout>
+            
+            <stack-layout class="hr" />
+            
+            <stack-layout class="form-item ">
+                <label text="calm" class="input-label" />
+                <grid-layout columns="24, *, 30" rows="auto">
+                    <label text="&#xf125;" col="0" class="tns-ionicon-large" />
+                    <slider value="40" maxValue="100" minValue="0" col="1" class="slider-calm"/>
+                    <label text="&#xf124;" col="2" class="tns-ionicon-large right" />
+                </grid-layout>    
+            </stack-layout>
+            
+            <stack-layout class="hr" />
+            
+            <stack-layout class="form-item ">
+                <label text="balanced" class="input-label" />
+                <grid-layout columns="24, *, 30" rows="auto">
+                    <label text="&#xf272;" col="0" class="tns-ionicon-large" />
+                    <slider value="50" maxValue="100" minValue="0" col="1" class="slider-balanced"/>
+                    <label text="&#xf26a;" col="2" class="tns-ionicon-large right" />
+                </grid-layout>    
+            </stack-layout>
+            
+            <stack-layout class="hr" />
+            
+            <stack-layout class="form-item ">
+                <label text="energized" class="input-label" />
+                <grid-layout columns="24, *, 30" rows="auto">
+                    <label text="&#xf12f;" col="0" class="tns-ionicon-large" />
+                    <slider value="60" maxValue="100" minValue="0" col="1" class="slider-energized"/>
+                    <label text="&#xf12e;" col="2" class="tns-ionicon-large right" />
+                </grid-layout>    
+            </stack-layout>
+            
+            <stack-layout class="hr" />
+            
+            <stack-layout class="form-item ">
+                <label text="assertive" class="input-label" />
+                <grid-layout columns="24, *, 30" rows="auto">
+                    <label text="&#xf306;" col="0" class="tns-ionicon-large" />
+                    <slider value="70" maxValue="100" minValue="0" col="1" class="slider-assertive"/>
+                    <label text="&#xf133;" col="2" class="tns-ionicon-large right" />
+                </grid-layout>    
+            </stack-layout>
+            
+            <stack-layout class="hr" />
+            
+            <stack-layout class="form-item ">
+                <label text="royal" class="input-label" />
+                <grid-layout columns="24, *, 30" rows="auto">
+                    <label text="&#xf31d;" col="0" class="tns-ionicon-large" />
+                    <slider value="80" maxValue="100" minValue="0" col="1" class="slider-royal"/>
+                    <label text="&#xf141;" col="2" class="tns-ionicon-large right" />
+                </grid-layout>    
+            </stack-layout>
+            
+            <stack-layout class="hr" />
+            
+            <stack-layout class="form-item ">
+                <label text="dark" class="input-label" />
+                <grid-layout columns="24, *, 30" rows="auto">
+                    <label text="&#xf3cb;" col="0" class="tns-ionicon-large" />
+                    <slider value="90" maxValue="100" minValue="0" col="1" class="slider-dark"/>
+                    <label text="&#xf3cc;" col="2" class="tns-ionicon-large right" />
+                </grid-layout>    
+            </stack-layout>
+            
+        </stack-layout>
+    </stack-layout>
+    </scroll-view>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>
