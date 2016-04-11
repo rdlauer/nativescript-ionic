@@ -16,7 +16,7 @@ export abstract class BasePage {
     
     loaded(args){
         let page = <Page>args.object;
-        page.bindingContext = appViewModel;   
+        page.bindingContext = appViewModel;
     }
     
     toggleDrawer(){
@@ -34,6 +34,6 @@ export abstract class BasePage {
     
     changeActionBarStyle(args: EventData) {
         let style = <Button>args.object.rel.toLowerCase();
-        appViewModel.set('selectedStyle', style)
+        appViewModel.set('selectedStyle', style);
     }
 }

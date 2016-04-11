@@ -16,6 +16,7 @@
             <label text="       Inset Input" tap="navigate" rel="forms/form-input-inset" title="Inset Inputs" />
             <label text="&#xf4a6;  Sliders + Ionicons" tap="navigate" rel="slider" title="Sliders + Ionicons" />
             <label text="&#xf4c3;  Switches" tap="navigate" rel="switch" title="Switches" />
+            <label text="&#xf120;  Checkboxes" tap="navigate" rel="checkbox" title="Checkboxes" />
         </stack-layout>
     </grid-layout>
 </scroll-view>
