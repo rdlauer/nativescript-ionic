@@ -17,6 +17,16 @@ let viewModel = new Observable({
         { artist: 'Phosphorescent', title: 'Muchacho', img: 'phosphorescent.jpg' },
         { artist: 'Sylvan Esso', title: 'Sylvan Esso', img: 'sylvan-esso.jpg' },
         { artist: 'Yeah Yeah Yeahs', title: 'Fever To Tell', img: 'yeah-yeah-yeahs.jpg' }
+    ]),
+    fakeListItemsWithDividers: new ObservableArray([
+        { text: 'iOS', class: 'item item-divider' },
+        { text: 'iPod', class: 'item' },
+        { text: 'iPhone', class: 'item' },
+        { text: 'iPad', class: 'item' },
+        { text: 'Android', class: 'item item-divider' },
+        { text: 'Nexus 6', class: 'item' },
+        { text: 'Nexus 9', class: 'item' },
+        { text: 'Android Wear', class: 'item' }
     ])
 });
 

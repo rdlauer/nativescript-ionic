@@ -75,6 +75,43 @@ Page {
     font-size: 26;
 }
 
+/* base colors */
+
+.ionic-light {
+    color: #f8f8f8;
+}
+
+.ionic-stable {
+    color: #b2b2b2;
+}
+
+.ionic-positive {
+    color: #387ef5;
+}
+
+.ionic-calm {
+    color: #11c1f3;
+}
+
+.ionic-balanced {
+    color: #33cd5f;
+}
+
+.ionic-energized {
+    color: #ffc900;
+}
+
+.ionic-assertive {
+    color: #ef473a;
+}
+
+.ionic-royal {
+    color: #886aea;
+}
+
+.ionic-dark {
+    color: #444;
+}
 
 /* forms */
 
@@ -160,6 +197,12 @@ Page {
     padding-left: 16;
 }
 
+.item-divider {
+    background-color: #f5f5f5;
+    color: #222;
+    font-weight: bold;
+}
+
 
 /* buttons */
 
@@ -175,6 +218,15 @@ Page {
     text-align: center;
     font-size: 18;
     line-height: 42;
+}
+
+.button-small {
+    font-size: 14;
+    width: 200;
+}
+
+.button-large {
+    font-size: 26;
 }
 
 .button-light {
@@ -231,6 +283,117 @@ Page {
     color: #fff;
 }
 
+/* buttons - outlined */
+
+.button-light-outlined {
+    border-color: #ddd;
+    background-color: transparent;
+    color: #ddd;
+}
+
+.button-stable-outlined {
+    border-color: #b2b2b2;
+    background-color: transparent;
+    color: #b2b2b2;
+}
+
+.button-positive-outlined {
+    border-color: #387ef5;
+    background-color: transparent;
+    color: #387ef5;
+}
+
+.button-calm-outlined {
+    border-color: #11c1f3;
+    background-color: transparent;
+    color: #11c1f3;
+}
+
+.button-balanced-outlined {
+    border-color: #33cd5f;
+    background-color: transparent;
+    color: #33cd5f;
+}
+
+.button-energized-outlined {
+    border-color: #ffc900;
+    background-color: transparent;
+    color: #ffc900;
+}
+
+.button-assertive-outlined {
+    border-color: #ef473a;
+    background-color: transparent;
+    color: #ef473a;
+}
+
+.button-royal-outlined {
+    border-color: #886aea;
+    background-color: transparent;
+    color: #886aea;
+}
+
+.button-dark-outlined {
+    border-color: #444;
+    background-color: transparent;
+    color: #444;
+}
+
+/* buttons - clear */
+
+.button-light-clear {
+    border-color: transparent;
+    background-color: transparent;
+    color: #ddd;
+}
+
+.button-stable-clear {
+    border-color: transparent;
+    background-color: transparent;
+    color: #b2b2b2;
+}
+
+.button-positive-clear {
+    border-color: transparent;
+    background-color: transparent;
+    color: #387ef5;
+}
+
+.button-calm-clear {
+    border-color: transparent;
+    background-color: transparent;
+    color: #11c1f3;
+}
+
+.button-balanced-clear {
+    border-color: transparent;
+    background-color: transparent;
+    color: #33cd5f;
+}
+
+.button-energized-clear {
+    border-color: transparent;
+    background-color: transparent;
+    color: #ffc900;
+}
+
+.button-assertive-clear {
+    border-color: transparent;
+    background-color: transparent;
+    color: #ef473a;
+}
+
+.button-royal-clear {
+    border-color: transparent;
+    background-color: transparent;
+    color: #886aea;
+}
+
+.button-dark-clear {
+    border-color: transparent;
+    background-color: transparent;
+    color: #444;
+}
 
 /* action bars */
 
@@ -278,7 +441,6 @@ Page {
     background-color: #444;
     color: #fff;
 }
-
 
 /* switches */
 

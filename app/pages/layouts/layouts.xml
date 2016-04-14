@@ -1,0 +1,94 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer" loaded="mainContentLoaded">
+    <drawer:rad-side-drawer.mainContent>
+<stack-layout>
+    <stack-layout class="padding">
+        <label text="The examples shown here display the various methods of laying out your NativeScript UI elements." textWrap="true" />
+    </stack-layout>
+    <stack-layout class="hr" />
+    
+<GridLayout loaded="rootGridLoaded">
+    <TabView id="tabView" 
+      selectedIndex="0" 
+      tabsBackgroundColor="#387ef5"
+      android:cssClass="tab-view" 
+      android:selectedColor="#CED910"
+      ios:cssClass="tab-view"
+      ios:selectedColor="white">
+      <TabView.items>
+        <TabViewItem title="Stack" ios:iconSource="{{ selectedIndex == 0 ? 'res://stack-1' : 'res://stack' }}">
+          <TabViewItem.view>
+                <StackLayout cssClass="layout-container">
+                    <Button cssClass="btn-red" />
+                    <Button cssClass="btn-lightblue" />
+                    <Button cssClass="btn-lightgreen" />
+                    <Button cssClass="btn-yellow" />
+                    <Button cssClass="btn-blue" />
+                </StackLayout>
+          </TabViewItem.view>
+        </TabViewItem>
+        <TabViewItem title="Grid" ios:iconSource="{{ selectedIndex == 1 ? 'res://grid-1' : 'res://grid' }}">
+          <TabViewItem.view>
+            <GridLayout columns="*,*,*" rows="*,*,*" cssClass="layout-container">
+              <Button cssClass="btn-red" />
+              <Button col="1" cssClass="btn-lightblue" />
+              <Button col="2" rowSpan="2" cssClass="btn-lightgreen" />
+              <Button row="1" rowSpan="2" colSpan="2" cssClass="btn-yellow" />
+              <Button row="2" col="2" cssClass="btn-blue" />
+            </GridLayout>
+          </TabViewItem.view>
+        </TabViewItem>
+        <TabViewItem title="Wrap" ios:iconSource="{{ selectedIndex == 2 ? 'res://wrap-1' : 'res://wrap' }}">
+          <TabViewItem.view>
+            <WrapLayout cssClass="layout-container example-even-enter">
+              <Button width="150" height="100" cssClass="btn-red" />
+              <Button width="100" height="150" cssClass="btn-lightblue" />
+              <Button width="200" height="120" cssClass="btn-lightgreen" />
+              <Button width="100" height="50" cssClass="btn-yellow" />
+              <Button width="250" height="100" cssClass="btn-blue" />
+            </WrapLayout>
+          </TabViewItem.view>
+        </TabViewItem>
+        <TabViewItem title="Dock" ios:iconSource="{{ selectedIndex == 3 ? 'res://dock-1' : 'res://dock' }}">
+          <TabViewItem.view>
+            <DockLayout stretchLastChild="true" cssClass="layout-container">
+              <Button dock="left" cssClass="btn-red" />/>
+              <Button dock="top" cssClass="btn-lightblue" />
+              <Button dock="right" cssClass="btn-lightgreen" />
+              <Button dock="bottom" cssClass="btn-yellow" />
+              <Button cssClass="btn-blue" />
+            </DockLayout>
+          </TabViewItem.view>
+        </TabViewItem>
+        <TabViewItem title="Absolute" ios:iconSource="{{ selectedIndex == 4 ? 'res://absolute-1' : 'res://absolute' }}">
+          <TabViewItem.view>
+            <AbsoluteLayout cssClass="layout-container">
+              <Button left="50" top="50" width="100" height="100" cssClass="btn-red" />
+              <Button left="200" top="100" width="100" height="300" cssClass="btn-lightblue" />
+              <Button left="50" top="280" width="200" height="100" cssClass="btn-lightgreen" />
+            </AbsoluteLayout>
+          </TabViewItem.view>
+        </TabViewItem>
+      </TabView.items>
+    </TabView>
+  </GridLayout>
+  
+</stack-layout>
+
+      </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>

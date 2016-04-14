@@ -1,22 +1,36 @@
 <scroll-view>
     <grid-layout class="drawer-content">
         <stack-layout class="drawer-menu tns-ionicon">
-            <label text="&#xf421;  Action Bars" tap="navigate" rel="action-bar" title="ActionBars" />
-            <label text="&#xf3e8;  Text" tap="navigate" rel="text" title="Text" />
-            <label text="&#xf13f;  Buttons" tap="navigate" rel="buttons" title="Buttons" />
+            <label text="&#xf421;   Action Bars" tap="navigate" rel="action-bar" title="ActionBars" />
+            <label text="&#xf4a6;  Sliders + Ionicons" tap="navigate" rel="slider" title="Sliders + Ionicons" />
+            <label text="&#xf4c3;  Switches" tap="navigate" rel="switch" title="Switches" />
+            <label text="&#xf120;  Checkboxes" tap="navigate" rel="checkbox" title="Checkboxes" />
+            <label text="&#xf396;  Segmented Bars" tap="navigate" rel="segmented-bar" title="Segmented Bars" />
+            <label text="&#xf3a7;  Radio Buttons" tap="navigate" rel="radiobutton" title="Radio Buttons" />
+            <label text="&#xf391;  Progress Bars" tap="navigate" rel="progress" title="Progress Bars" />
+            <label text="&#xf459;  Activity Indicators" tap="navigate" rel="activity" title="Activity Indicators" />
+            <label text="&#xf3e8;   Text" tap="navigate" rel="text" title="Text" />
+            <label text="&#xf13f;  Buttons" />
+            <label text="       Default Buttons" tap="navigate" rel="buttons/buttons" title="Default Buttons"/>
+            <label text="       Outlined Buttons" tap="navigate" rel="buttons/outlined-buttons" title="Outlined Buttons" />
+            <label text="       Clear Buttons" tap="navigate" rel="buttons/clear-buttons" title="Clear Buttons" />
+            <label text="       Icon Buttons" tap="navigate" rel="buttons/icon-buttons" title="Icon Buttons" />
+            <label text="       Sized Buttons" tap="navigate" rel="buttons/sized-buttons" title="Sized Buttons" />
             <label text="&#xf454;  ListViews" />
             <label text="       Simple ListView" tap="navigate" rel="list-views/simple-list-view" title="Simple ListView"/>
             <label text="       ListView with Avatars" tap="navigate" rel="list-views/list-view-avatar" title="Avatar ListView" />
             <label text="       ListView with Thumbnails" tap="navigate" rel="list-views/list-view-thumbnail" title="Thumbnail ListView" />
             <label text="       Inset ListView" tap="navigate" rel="list-views/list-view-inset" title="Inset ListView" />
+            <label text="       ListView with Dividers" tap="navigate" rel="list-views/list-view-divider" title="ListView Dividers" />
+            <label text="       Static ListView w/ Icons" tap="navigate" rel="list-views/list-view-icon" title="ListView Icons" />
+            <label text="       Static ListView w/ Buttons" tap="navigate" rel="list-views/list-view-button" title="ListView Buttons" />
             <label text="&#xf418;  Forms" rel="forms" title="Forms" />
             <label text="       Simple Inputs" tap="navigate" rel="forms/form-inputs" title="Simple Inputs" />
             <label text="       Stacked Labels" tap="navigate" rel="forms/stacked-labels" title="Stacked Labels" />
             <label text="       Inset Form" tap="navigate" rel="forms/inset-form" title="Inset Form" />
             <label text="       Inset Input" tap="navigate" rel="forms/form-input-inset" title="Inset Inputs" />
-            <label text="&#xf4a6;  Sliders + Ionicons" tap="navigate" rel="slider" title="Sliders + Ionicons" />
-            <label text="&#xf4c3;  Switches" tap="navigate" rel="switch" title="Switches" />
-            <label text="&#xf120;  Checkboxes" tap="navigate" rel="checkbox" title="Checkboxes" />
+            <label text="       Input Icons" tap="navigate" rel="forms/form-icons" title="Input Icons" />
+            <label text="&#xf35c;   NativeScript Layouts" tap="navigate" rel="layouts/layouts" title="Layouts" />
         </stack-layout>
     </grid-layout>
 </scroll-view>

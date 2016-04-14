@@ -18,63 +18,63 @@
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
                 <label text="light" col="0" class="input-label" />
-                <switch checked="true" class="switch-light" col="1" />
+                <activity-indicator busy="true" col="1" class="ionic-light" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
                 <label text="stable" col="0" class="input-label"  />
-                <switch checked="true" class="switch-stable" col="1" />
+                <activity-indicator busy="true" col="1" class="ionic-stable" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
                 <label text="positive" col="0" class="input-label"  />
-                <switch checked="true" class="switch-positive" col="1" />
+                <activity-indicator busy="true" col="1" class="ionic-positive" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
                 <label text="calm" col="0" class="input-label" />
-                <switch checked="true" class="switch-calm" col="1" />
+                <activity-indicator busy="true" col="1" class="ionic-calm" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
                 <label text="balanced" col="0" class="input-label"  />
-                <switch checked="true" class="switch-balanced" col="1" />
+                <activity-indicator busy="true" col="1" class="ionic-balanced" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
                 <label text="energized" col="0" class="input-label"  />
-                <switch checked="true" class="switch-energized" col="1" />
+                <activity-indicator busy="true" col="1" class="ionic-energized" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
                 <label text="assertive" col="0" class="input-label" />
-                <switch checked="true" class="switch-assertive" col="1" />
+                <activity-indicator busy="true" col="1" class="ionic-assertive" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
                 <label text="royal" col="0" class="input-label"  />
-                <switch checked="true" class="switch-royal" col="1" />
+                <activity-indicator busy="true" col="1" class="ionic-royal" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
                 <label text="dark" col="0" class="input-label"  />
-                <switch checked="true" class="switch-dark" col="1" />
+                <activity-indicator busy="true" col="1" class="ionic-dark" />
             </grid-layout>
             
         </stack-layout>

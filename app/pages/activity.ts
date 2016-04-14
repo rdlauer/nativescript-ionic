@@ -1,10 +1,10 @@
 import { BasePage } from '../shared/BasePage';
 import { Observable, EventData } from 'data/observable';
 
-class ActionBarPage extends BasePage {
+class Page extends BasePage {
     mainContentLoaded(args: EventData) {
              
     }
 }
 
-export = new ActionBarPage();
+export = new Page();

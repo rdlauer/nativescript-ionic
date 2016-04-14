@@ -1,0 +1,34 @@
+.layout-container {
+    margin: 6;   
+}
+
+.btn-red {
+    background-color: #ef473a;
+    margin: 6;    
+}
+
+.btn-lightblue {
+    background-color: #11c1f3;
+    margin: 6;   
+}
+
+.btn-lightgreen {
+    background-color: #33cd5f;
+    margin: 6;   
+}
+
+.btn-yellow {
+    background-color: #ffc900;
+    margin: 6;   
+}
+
+.btn-blue {
+    background-color: #387ef5;
+    margin: 6;   
+}
+
+.tab-view {
+    background-color: white;
+    color: white;
+    font-size: 14;
+}

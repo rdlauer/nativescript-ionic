@@ -15,7 +15,7 @@
         <stack-layout>
             <StackLayout>
                 <Button class="button button-light" text="light" />
-                <Button class="button button-stable" text="stable (default)" />
+                <Button class="button button-stable" text="stable" />
                 <Button class="button button-positive" text="positive" />
                 <Button class="button button-calm" text="calm" />
                 <Button class="button button-balanced" text="balanced" />

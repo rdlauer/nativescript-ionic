@@ -9,18 +9,20 @@
   
   <sb:status-bar ios:barStyle="light" />
   
-  <drawer:rad-side-drawer id="drawer" loaded="mainContentLoaded">
+  <drawer:rad-side-drawer id="drawer">
     <drawer:rad-side-drawer.mainContent>
 
-      <grid-layout columns="*">
-        <list-view items="{{ fakeListItems }}" class="listview">
-            <list-view.itemTemplate>
-                <stack-layout class="item" col="0">
-                    <label text="{{ artist + ': ' + title }}" col="1"/>
+      <stack-layout>
+        <stack-layout class="form form-inset">
+                
+                <stack-layout class="form-item" orientation="horizontal">
+                    <label text="&#xf2f5;  " class="input-label tns-ionicon-large" />
+                    <text-field hint="Search" class="input" />
                 </stack-layout>
-            </list-view.itemTemplate>
-        </list-view>
-      </grid-layout>
+                
+        </stack-layout>
+        
+    </stack-layout>    
 
     </drawer:rad-side-drawer.mainContent>
     <drawer:rad-side-drawer.drawerContent>

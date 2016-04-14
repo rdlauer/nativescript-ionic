@@ -14,6 +14,9 @@
     
 <scroll-view>
     <stack-layout>
+        <stack-layout class="padding">
+            <label text="Checkboxes are not standard native UI controls. Best practice is to use a switch instead." textWrap="true" />
+        </stack-layout>
         <stack-layout class="form">
             <Repeater items="{{ checkBoxItems }}">
                 <Repeater.itemTemplate>

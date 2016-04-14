@@ -15,66 +15,59 @@
 <scroll-view>
     <stack-layout>
         <stack-layout class="form">
-            
-            <grid-layout columns="*, 30" rows="auto" class="form-item">
-                <label text="light" col="0" class="input-label" />
-                <switch checked="true" class="switch-light" col="1" />
+
+            <grid-layout columns="*, 30" rows="auto" class="form-item item-divider">
+                <label text="iOS" col="0" class="input-label" />
+                <Button class="button button-positive tns-ionicon-large" style="width:50" text="&#xf30f;" col="1" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
-                <label text="stable" col="0" class="input-label"  />
-                <switch checked="true" class="switch-stable" col="1" />
+                <label text="iPod" col="0" class="input-label"  />
+                <Button class="button button-positive tns-ionicon-large" style="width:50" text="&#xf30f;" col="1" />
+            </grid-layout>
+            
+            <stack-layout class="hr" />
+            
+             <grid-layout columns="*, 30" rows="auto" class="form-item">
+                <label text="iPhone" col="0" class="input-label" />
+                <Button class="button button-positive tns-ionicon-large" style="width:50" text="&#xf30f;" col="1" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
-                <label text="positive" col="0" class="input-label"  />
-                <switch checked="true" class="switch-positive" col="1" />
+                <label text="iPad" col="0" class="input-label"  />
+                <Button class="button button-positive tns-ionicon-large" style="width:50" text="&#xf30f;" col="1" />
+            </grid-layout>
+            
+            <stack-layout class="hr" />
+            
+            <grid-layout columns="*, 30" rows="auto" class="form-item item-divider">
+                <label text="Android" col="0" class="input-label" />
+                <Button class="button button-positive tns-ionicon-large" style="width:50" text="&#xf30f;" col="1" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
-                <label text="calm" col="0" class="input-label" />
-                <switch checked="true" class="switch-calm" col="1" />
+                <label text="Nexus 6" col="0" class="input-label"  />
+                <Button class="button button-positive tns-ionicon-large" style="width:50" text="&#xf30f;" col="1" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
-                <label text="balanced" col="0" class="input-label"  />
-                <switch checked="true" class="switch-balanced" col="1" />
+                <label text="Nexus 9" col="0" class="input-label" />
+                <Button class="button button-positive tns-ionicon-large" style="width:50" text="&#xf30f;" col="1" />
             </grid-layout>
             
             <stack-layout class="hr" />
             
             <grid-layout columns="*, 30" rows="auto" class="form-item">
-                <label text="energized" col="0" class="input-label"  />
-                <switch checked="true" class="switch-energized" col="1" />
-            </grid-layout>
-            
-            <stack-layout class="hr" />
-            
-            <grid-layout columns="*, 30" rows="auto" class="form-item">
-                <label text="assertive" col="0" class="input-label" />
-                <switch checked="true" class="switch-assertive" col="1" />
-            </grid-layout>
-            
-            <stack-layout class="hr" />
-            
-            <grid-layout columns="*, 30" rows="auto" class="form-item">
-                <label text="royal" col="0" class="input-label"  />
-                <switch checked="true" class="switch-royal" col="1" />
-            </grid-layout>
-            
-            <stack-layout class="hr" />
-            
-            <grid-layout columns="*, 30" rows="auto" class="form-item">
-                <label text="dark" col="0" class="input-label"  />
-                <switch checked="true" class="switch-dark" col="1" />
+                <label text="Android Wear" col="0" class="input-label"  />
+                <Button class="button button-positive tns-ionicon-large" style="width:50" text="&#xf30f;" col="1" />
             </grid-layout>
             
         </stack-layout>

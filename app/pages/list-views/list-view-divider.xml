@@ -13,10 +13,10 @@
     <drawer:rad-side-drawer.mainContent>
 
       <grid-layout columns="*">
-        <list-view items="{{ fakeListItems }}" class="listview">
+        <list-view items="{{ fakeListItemsWithDividers }}" class="listview">
             <list-view.itemTemplate>
-                <stack-layout class="item" col="0">
-                    <label text="{{ artist + ': ' + title }}" col="1"/>
+                <stack-layout class="{{ class }}" col="0">
+                    <label text="{{ text }}" col="1"/>
                 </stack-layout>
             </list-view.itemTemplate>
         </list-view>

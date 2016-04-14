@@ -1,0 +1,94 @@
+<page xmlns="http://schemas.nativescript.org/tns.xsd"                
+      xmlns:sb="nativescript-statusbar" 
+      xmlns:drawer="nativescript-telerik-ui/sidedrawer"
+      xmlns:widgets="shared/widgets"
+      loaded="loaded">
+  <page.actionBar>
+    <widgets:action-bar-common />
+  </page.actionBar>
+  
+  <sb:status-bar ios:barStyle="light" />
+  
+  <drawer:rad-side-drawer id="drawer" loaded="mainContentLoaded">
+    <drawer:rad-side-drawer.mainContent>
+    
+    <scroll-view>
+        <stack-layout>
+        
+            <stack-layout class="padding">
+                <label text="Radio Buttons are not standard native UI controls. Best practice is to use a SegmentedBar instead." textWrap="true" />
+            </stack-layout>
+        
+            <stack-layout class="form">
+                <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <label text="light" col="0" class="input-label" />
+                    <Label id="rb1" text="{{ selected === 'rb1' ? '&#xf3a7;' : '&#xf3a6;' }}" tap="{{ tap }}" col="1" class="ionic-light tns-ionicon-large" />
+                </grid-layout>
+                
+                <stack-layout class="hr" />
+                
+                <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <label text="stable" col="0" class="input-label" />
+                    <Label id="rb2" text="{{ selected === 'rb2' ? '&#xf3a7;' : '&#xf3a6;' }}" tap="{{ tap }}" col="1" class="ionic-stable tns-ionicon-large" />
+                </grid-layout>
+                
+                <stack-layout class="hr" />
+                
+                <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <label text="positive" col="0" class="input-label" />
+                    <Label id="rb3" text="{{ selected === 'rb3' ? '&#xf3a7;' : '&#xf3a6;' }}" tap="{{ tap }}" col="1" class="ionic-positive tns-ionicon-large" />
+                </grid-layout>
+                
+                <stack-layout class="hr" />
+                
+                <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <label text="calm" col="0" class="input-label" />
+                    <Label id="rb4" text="{{ selected === 'rb4' ? '&#xf3a7;' : '&#xf3a6;' }}" tap="{{ tap }}" col="1" class="ionic-calm tns-ionicon-large" />
+                </grid-layout>
+                
+                <stack-layout class="hr" />
+                
+                <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <label text="balanced" col="0" class="input-label" />
+                    <Label id="rb5" text="{{ selected === 'rb5' ? '&#xf3a7;' : '&#xf3a6;' }}" tap="{{ tap }}" col="1" class="ionic-balanced tns-ionicon-large" />
+                </grid-layout>
+                
+                <stack-layout class="hr" />
+                
+                <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <label text="energized" col="0" class="input-label" />
+                    <Label id="rb6" text="{{ selected === 'rb6' ? '&#xf3a7;' : '&#xf3a6;' }}" tap="{{ tap }}" col="1" class="ionic-energized tns-ionicon-large" />
+                </grid-layout>
+                
+                <stack-layout class="hr" />
+                
+                <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <label text="assertive" col="0" class="input-label" />
+                    <Label id="rb7" text="{{ selected === 'rb7' ? '&#xf3a7;' : '&#xf3a6;' }}" tap="{{ tap }}" col="1" class="ionic-assertive tns-ionicon-large" />
+                </grid-layout>
+                
+                <stack-layout class="hr" />
+                
+                <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <label text="royal" col="0" class="input-label" />
+                    <Label id="rb8" text="{{ selected === 'rb8' ? '&#xf3a7;' : '&#xf3a6;' }}" tap="{{ tap }}" col="1" class="ionic-royal tns-ionicon-large" />
+                </grid-layout>
+                
+                <stack-layout class="hr" />
+                
+                <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <label text="dark" col="0" class="input-label" />
+                    <Label id="rb9" text="{{ selected === 'rb9' ? '&#xf3a7;' : '&#xf3a6;' }}" tap="{{ tap }}" col="1" class="ionic-dark tns-ionicon-large" />
+                </grid-layout>
+                
+            </stack-layout>
+        </stack-layout>
+    </scroll-view>
+
+    </drawer:rad-side-drawer.mainContent>
+    <drawer:rad-side-drawer.drawerContent>
+      <widgets:drawer-content />
+    </drawer:rad-side-drawer.drawerContent>
+  </drawer:rad-side-drawer>
+
+</page>
