@@ -20,9 +20,9 @@
         <stack-layout class="form">
             <Repeater items="{{ checkBoxItems }}">
                 <Repeater.itemTemplate>
-                    <grid-layout columns="*, 30" rows="auto" class="form-item">
+                    <grid-layout columns="*, 40" rows="auto" class="form-item">
                         <label text="{{ text }}" col="0" class="input-label" />
-                        <image tap="{{ $parents['Repeater'].toggleChecked }}" src="{{ checked ? 'res://' + text + '-checked' : 'res://' + text + '-unchecked' }}" col="1" />
+                        <label tap="{{ $parents['Repeater'].toggleChecked }}" text="{{ checked ? '&#xf3ff;' : '&#xf401;' }}" col="1" class="{{ 'checkbox ionic-' + text }} " />
                     </grid-layout>
                 </Repeater.itemTemplate>
             </Repeater>

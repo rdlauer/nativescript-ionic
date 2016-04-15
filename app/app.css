@@ -527,3 +527,9 @@ Page {
 .slider-dark {
     background-color: #444;
 }
+
+/* checkboxes */
+.checkbox {
+    font-family: "Ionicons", ionicons;
+    font-size: 35;   
+}
