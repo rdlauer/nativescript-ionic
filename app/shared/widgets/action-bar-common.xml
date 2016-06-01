@@ -1,3 +1,5 @@
+<!--
+// seems to be a problem with android evaluating action-bar title properly
 <action-bar title="{{ 'Io{N}ic ' + title }}" class="{{ 'action-bar-' + selectedStyle }}">
     <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
     <action-bar.actionItems>
@@ -5,4 +7,18 @@
             <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
         </ios>
     </action-bar.actionItems>
-</action-bar>        
+</action-bar>
+-->    
+<ios>
+    <action-bar title="{{ 'Io{N}ic ' + title }}" class="{{ 'action-bar-' + selectedStyle }}">
+        <navigation-button icon="res://ic_menu" tap="toggleDrawer" ios:visibility="collapsed" />
+        <action-bar.actionItems>
+            <action-item icon="res://ic_menu" ios.position="left" tap="toggleDrawer" />
+        </action-bar.actionItems>
+    </action-bar>
+</ios>
+<android>
+    <action-bar title="Io{N}ic" class="{{ 'action-bar-' + selectedStyle }}">
+        <navigation-button icon="res://ic_menu" tap="toggleDrawer" />
+    </action-bar>
+</android>

@@ -67,11 +67,11 @@ Page {
 /* ionicons */
 
 .tns-ionicon {
-    font-family: "Ionicons";
+    font-family: "Ionicons", ionicons;
 }
 
 .tns-ionicon-large {
-    font-family: "Ionicons";
+    font-family: "Ionicons", ionicons;
     font-size: 26;
 }
 
