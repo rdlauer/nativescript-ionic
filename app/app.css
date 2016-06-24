@@ -443,50 +443,87 @@ Page {
 }
 
 /* switches */
+/* using nativescript-platform-css plugin to utilize .ios and .android shortcuts :) */
 
 .switch-light {
     background-color: #f8f8f8;
-    color: #444;
+    color: #b2b2b2;
+}
+
+.android .switch-light {
+    background-color: #f0f0f0;
 }
 
 .switch-stable {
     background-color: #b2b2b2;
-    color: #444;
+    color: #fafafa;
+}
+
+.android .switch-stable {
+    color: #c9c9c9;
 }
 
 .switch-positive {
     background-color: #387ef5;
-    color: #fff;
+    color: #fafafa;
+}
+
+.android .switch-positive {
+    color: #387ef5;
 }
 
 .switch-calm {
     background-color: #11c1f3;
-    color: #fff;
+    color: #fafafa;
+}
+
+.android .switch-calm {
+    color: #11c1f3;
 }
 
 .switch-balanced {
     background-color: #33cd5f;
-    color: #fff;
+    color: #fafafa;
+}
+
+.android .switch-balanced {
+    color: #33cd5f;
 }
 
 .switch-energized {
     background-color: #ffc900;
-    color: #fff;
+    color: #fafafa;
+}
+
+.android .switch-energized {
+    color: #ffc900;
 }
 
 .switch-assertive {
     background-color: #ef473a;
-    color: #fff;
+    color: #fafafa;
+}
+
+.android .switch-assertive {
+    color: #ef473a;
 }
 
 .switch-royal {
     background-color: #886aea;
-    color: #fff;
+    color: #fafafa;
+}
+
+.android .switch-royal {
+    color: #886aea;
 }
 
 .switch-dark {
     background-color: #444;
-    color: #fff;
+    color: #fafafa;
+}
+
+.android .switch-dark {
+    color: #444;
 }
 
 

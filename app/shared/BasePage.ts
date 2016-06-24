@@ -3,6 +3,7 @@ import {Page} from "ui/page";
 import {Button} from "ui/button";
 import {Observable, EventData} from "data/observable";
 import {View} from "ui/core/view";
+require("nativescript-platform-css");
 
 let appViewModel = new Observable({
     selectedPage: "home",

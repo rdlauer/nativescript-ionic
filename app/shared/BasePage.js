@@ -1,6 +1,7 @@
 "use strict";
 var frame_1 = require("ui/frame");
 var observable_1 = require("data/observable");
+require("nativescript-platform-css");
 var appViewModel = new observable_1.Observable({
     selectedPage: "home",
     selectedStyle: "positive",
