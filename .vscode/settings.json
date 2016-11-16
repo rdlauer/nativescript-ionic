@@ -7,4 +7,6 @@
         "**/*.js": true,
         "**/*.map": true
 	}
+,
+"typescript.check.workspaceVersion": false
 }

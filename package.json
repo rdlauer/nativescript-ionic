@@ -2,17 +2,17 @@
   "nativescript": {
     "id": "org.nativescript.tnsionic",
     "tns-android": {
-      "version": "2.0.0"
+      "version": "2.4.0"
     },
     "tns-ios": {
-      "version": "2.0.1"
+      "version": "2.4.0"
     }
   },
   "dependencies": {
-    "nativescript-platform-css": "^1.0.0",
+    "nativescript-platform-css": "^1.0.1",
     "nativescript-statusbar": "^1.0.0",
-    "nativescript-telerik-ui": "^0.2.4",
-    "tns-core-modules": "^2.0.1"
+    "nativescript-telerik-ui": "^1.4.1",
+    "tns-core-modules": "^2.4.0"
   },
   "devDependencies": {
     "babel-traverse": "6.9.0",
