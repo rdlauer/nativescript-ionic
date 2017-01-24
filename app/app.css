@@ -342,43 +342,43 @@ Page {
 /* buttons - clear */
 
 .button-light-clear {
-    border-color: transparent;
+    border-width: 0;
     background-color: transparent;
     color: #ddd;
 }
 
 .button-stable-clear {
-    border-color: transparent;
+    border-width: 0;
     background-color: transparent;
     color: #b2b2b2;
 }
 
 .button-positive-clear {
-    border-color: transparent;
+    border-width: 0;
     background-color: transparent;
     color: #387ef5;
 }
 
 .button-calm-clear {
-    border-color: transparent;
+    border-width: 0;
     background-color: transparent;
     color: #11c1f3;
 }
 
 .button-balanced-clear {
-    border-color: transparent;
+    border-width: 0;
     background-color: transparent;
     color: #33cd5f;
 }
 
 .button-energized-clear {
-    border-color: transparent;
+    border-width: 0;
     background-color: transparent;
     color: #ffc900;
 }
 
 .button-assertive-clear {
-    border-color: transparent;
+    border-width: 0;
     background-color: transparent;
     color: #ef473a;
 }
@@ -390,7 +390,7 @@ Page {
 }
 
 .button-dark-clear {
-    border-color: transparent;
+    border-width: 0;
     background-color: transparent;
     color: #444;
 }
