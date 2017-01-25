@@ -64,6 +64,7 @@ Page {
     margin: 10 0 10 0;
 }
 
+
 /* ionicons */
 
 .tns-ionicon {
@@ -74,6 +75,7 @@ Page {
     font-family: "Ionicons", ionicons;
     font-size: 26;
 }
+
 
 /* base colors */
 
@@ -112,6 +114,7 @@ Page {
 .ionic-dark {
     color: #444;
 }
+
 
 /* forms */
 
@@ -193,7 +196,8 @@ Page {
     height: 40;
 }
 
-.item-avatar stacklayout, .item-thumbnail stacklayout {
+.item-avatar stacklayout,
+.item-thumbnail stacklayout {
     padding-left: 16;
 }
 
@@ -283,6 +287,7 @@ Page {
     color: #fff;
 }
 
+
 /* buttons - outlined */
 
 .button-light-outlined {
@@ -338,6 +343,7 @@ Page {
     background-color: transparent;
     color: #444;
 }
+
 
 /* buttons - clear */
 
@@ -395,6 +401,7 @@ Page {
     color: #444;
 }
 
+
 /* action bars */
 
 .action-bar-light {
@@ -442,7 +449,10 @@ Page {
     color: #fff;
 }
 
+
 /* switches */
+
+
 /* using nativescript-platform-css plugin to utilize .ios and .android shortcuts :) */
 
 .switch-light {
@@ -565,8 +575,24 @@ Page {
     background-color: #444;
 }
 
+
 /* checkboxes */
+
 .checkbox {
     font-family: "Ionicons", ionicons;
-    font-size: 35;   
+    font-size: 35;
+}
+
+
+/* tab */
+
+.tab {
+    border-top: 1;
+    border-top-width: 1;
+    border-color: #ddd;
+}
+
+.tab-item {
+    text-align: center;
+    vertical-align: center;
 }
